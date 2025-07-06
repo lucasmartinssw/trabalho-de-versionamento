@@ -1,5 +1,3 @@
-// src/app/page.tsx
-
 import Link from "next/link";
 import { Menu } from "lucide-react";
 
@@ -19,7 +17,6 @@ import {
   SheetTitle,
 } from "@/components/ui/sheet";
 
-// Lista de rotas para facilitar a manutenção
 const routes = [
   { href: "/produtos", label: "Produtos" },
   { href: "/eventos", label: "Eventos" },
