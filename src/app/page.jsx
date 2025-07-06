@@ -31,7 +31,6 @@ const routes = [
 export default function Home() {
   return (
     <main className="flex min-h-screen w-full flex-col items-center justify-center bg-muted/40 p-4">
-      {/* --- Versão para Desktop (Visível em telas 'md' ou maiores) --- */}
       <div className="hidden md:block">
         <Card className="w-[450px] shadow-lg">
           <CardHeader className="text-center">
@@ -54,7 +53,7 @@ export default function Home() {
         </Card>
       </div>
 
-      {/* --- Versão para Mobile (Oculta em telas 'md' ou maiores) --- */}
+      {/* Responsividade */}
       <div className="block md:hidden">
         <Sheet>
           <SheetTrigger asChild>
